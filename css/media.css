@@ -1,0 +1,102 @@
+@media only screen and (max-width: 650px) {
+    #card {
+        flex-direction: column;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #img2 {
+        display: initial;
+        width: 500px;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    #text {
+        width: 500px;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    #description {
+        font-size: 20px;
+    }
+
+    #valor {
+        font-size: 40px;
+    }
+
+    #old {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    nav {
+        margin-top: 50px;
+    }
+
+    nav a {
+        font-size: 20px;
+        padding: 15px 150px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    #img2 {
+        width: 350px;
+    }
+
+    #text {
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #description {
+        font-size: 15px;
+    }
+
+    #old {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    nav a {
+        font-size: 20px;
+        padding: 15px 80px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h2, #description, #valor, #old {
+        margin-top: 10px;
+    }
+
+    #text {
+        height: 370px;
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+
+    nav a {
+        font-size: 15px;
+        padding: 15px 100px;
+    }
+
+}
